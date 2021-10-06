@@ -1,4 +1,5 @@
 import React from 'react'
+import TodoList from './TodoList'
 
 interface Props {
   
@@ -7,7 +8,7 @@ interface Props {
 const AppContent = (props: Props) => {
   return (
     <div>
-      AppContent
+      <TodoList />
     </div>
   )
 }
